@@ -1,0 +1,15 @@
+<additional>
+
+   <inductionLoop id="det_11" lane="1si_0" pos="3" freq="500" file="cross.out"/>
+   <inductionLoop id="det_12" lane="1si_0" pos="395" freq="500" file="cross.out"/>
+   
+   <inductionLoop id="det_21" lane="2si_0" pos="3" freq="500" file="cross.out"/>
+   <inductionLoop id="det_22" lane="2si_0" pos="395" freq="500" file="cross.out"/>
+   
+   <inductionLoop id="det_31" lane="3si_0" pos="3" freq="500" file="cross.out"/>
+   <inductionLoop id="det_32" lane="3si_0" pos="395" freq="500" file="cross.out"/>
+   
+   <inductionLoop id="det_41" lane="4si_0" pos="3" freq="500" file="cross.out"/>
+   <inductionLoop id="det_42" lane="4si_0" pos="395" freq="500" file="cross.out"/>
+   
+</additional>

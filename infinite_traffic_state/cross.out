@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/03/19 23:37:51 by Eclipse SUMO GUI Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="cross.net.xml"/>
+        <route-files value="input_routes.rou.xml"/>
+        <additional-files value="cross.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="50131"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="156.00" id="det_11" nVehContrib="10" flow="230.77" occupancy="80.86" speed="2.15" length="5.00" nVehEntered="11"/>
+    <interval begin="0.00" end="156.00" id="det_12" nVehContrib="5" flow="115.38" occupancy="84.98" speed="0.70" length="5.00" nVehEntered="6"/>
+    <interval begin="0.00" end="156.00" id="det_21" nVehContrib="9" flow="207.69" occupancy="78.65" speed="2.03" length="5.00" nVehEntered="10"/>
+    <interval begin="0.00" end="156.00" id="det_22" nVehContrib="4" flow="92.31" occupancy="83.24" speed="0.19" length="5.00" nVehEntered="5"/>
+    <interval begin="0.00" end="156.00" id="det_31" nVehContrib="9" flow="207.69" occupancy="77.31" speed="2.02" length="5.00" nVehEntered="10"/>
+    <interval begin="0.00" end="156.00" id="det_32" nVehContrib="4" flow="92.31" occupancy="85.76" speed="0.17" length="5.00" nVehEntered="5"/>
+    <interval begin="0.00" end="156.00" id="det_41" nVehContrib="9" flow="207.69" occupancy="78.65" speed="2.06" length="5.00" nVehEntered="10"/>
+    <interval begin="0.00" end="156.00" id="det_42" nVehContrib="4" flow="92.31" occupancy="85.17" speed="0.19" length="5.00" nVehEntered="5"/>
+</detector>

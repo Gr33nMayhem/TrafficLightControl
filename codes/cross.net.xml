@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/15/19 14:25:56 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="D:\sumo\my%20files\cross.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<net version="1.1" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-16.09,22.40,78.23,95.74" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":Cross_0" function="internal">
+        <lane id=":Cross_0_0" index="0" speed="6.67" length="9.29" shape="32.44,67.15 32.03,64.68 30.92,62.90 29.10,61.81 26.57,61.42"/>
+    </edge>
+    <edge id=":Cross_1" function="internal">
+        <lane id=":Cross_1_0" index="0" speed="13.89" length="14.50" shape="32.44,67.15 32.16,52.65"/>
+    </edge>
+    <edge id=":Cross_2" function="internal">
+        <lane id=":Cross_2_0" index="0" speed="8.01" length="14.19" shape="32.44,67.15 32.92,63.30 34.52,60.52 37.24,58.81 41.08,58.18"/>
+    </edge>
+    <edge id=":Cross_3" function="internal">
+        <lane id=":Cross_3_0" index="0" speed="6.52" length="9.04" shape="41.15,61.38 38.70,61.78 36.97,62.87 35.95,64.64 35.64,67.10"/>
+    </edge>
+    <edge id=":Cross_4" function="internal">
+        <lane id=":Cross_4_0" index="0" speed="13.89" length="14.58" shape="41.15,61.38 26.57,61.42"/>
+    </edge>
+    <edge id=":Cross_5" function="internal">
+        <lane id=":Cross_5_0" index="0" speed="8.03" length="14.29" shape="41.15,61.38 37.28,60.91 34.50,59.29 32.79,56.54 32.16,52.65"/>
+    </edge>
+    <edge id=":Cross_6" function="internal">
+        <lane id=":Cross_6_0" index="0" speed="6.54" length="9.13" shape="35.36,52.59 35.76,55.08 36.85,56.84 38.62,57.88 41.08,58.18"/>
+    </edge>
+    <edge id=":Cross_7" function="internal">
+        <lane id=":Cross_7_0" index="0" speed="13.89" length="14.51" shape="35.36,52.59 35.64,67.10"/>
+    </edge>
+    <edge id=":Cross_8" function="internal">
+        <lane id=":Cross_8_0" index="0" speed="7.94" length="14.33" shape="35.36,52.59 34.88,56.50 33.25,59.28 30.48,60.92 26.57,61.42"/>
+    </edge>
+    <edge id=":Cross_9" function="internal">
+        <lane id=":Cross_9_0" index="0" speed="6.43" length="9.03" shape="26.62,58.22 29.09,57.91 30.83,56.87 31.86,55.12 32.16,52.65"/>
+    </edge>
+    <edge id=":Cross_10" function="internal">
+        <lane id=":Cross_10_0" index="0" speed="13.89" length="14.46" shape="26.62,58.22 41.08,58.18"/>
+    </edge>
+    <edge id=":Cross_11" function="internal">
+        <lane id=":Cross_11_0" index="0" speed="8.13" length="14.32" shape="26.62,58.22 30.51,58.83 33.31,60.51 35.02,63.27 35.64,67.10"/>
+    </edge>
+
+    <edge id="gneE0" from="1" to="Cross" priority="-1">
+        <lane id="gneE0_0" index="0" speed="13.89" length="42.69" shape="-16.06,57.55 26.62,58.22"/>
+    </edge>
+    <edge id="gneE1" from="Cross" to="2" priority="-1">
+        <lane id="gneE1_0" index="0" speed="13.89" length="28.62" shape="35.64,67.10 36.14,95.71"/>
+    </edge>
+    <edge id="gneE10" from="3" to="Cross" priority="-1">
+        <lane id="gneE10_0" index="0" speed="13.89" length="37.13" shape="78.27,60.59 41.15,61.38"/>
+    </edge>
+    <edge id="gneE2" from="Cross" to="3" priority="-1">
+        <lane id="gneE2_0" index="0" speed="13.89" length="37.13" shape="41.08,58.18 78.20,57.39"/>
+    </edge>
+    <edge id="gneE3" from="Cross" to="4" priority="-1">
+        <lane id="gneE3_0" index="0" speed="13.89" length="30.23" shape="32.16,52.65 31.52,22.43"/>
+    </edge>
+    <edge id="gneE4" from="4" to="Cross" priority="-1">
+        <lane id="gneE4_0" index="0" speed="13.89" length="30.23" shape="34.72,22.36 35.36,52.59"/>
+    </edge>
+    <edge id="gneE6" from="Cross" to="1" priority="-1">
+        <lane id="gneE6_0" index="0" speed="13.89" length="42.69" shape="26.57,61.42 -16.11,60.75"/>
+    </edge>
+    <edge id="gneE7" from="2" to="Cross" priority="-1">
+        <lane id="gneE7_0" index="0" speed="13.89" length="28.62" shape="32.94,95.77 32.44,67.15"/>
+    </edge>
+
+    <tlLogic id="Cross" type="static" programID="0" offset="0">
+        <phase duration="5" state="GGgrrrrrrrrr"/>
+        <phase duration="3"  state="yyyrrrrrrrrr"/>
+        <phase duration="5" state="rrrGGgrrrrrr"/>
+        <phase duration="3"  state="rrryyyrrrrrr"/>
+        <phase duration="5" state="rrrrrrGGgrrr"/>
+        <phase duration="3"  state="rrrrrryyyrrr"/>
+        <phase duration="5" state="rrrrrrrrrGGg"/>
+        <phase duration="3"  state="rrrrrrrrryyy"/>
+    </tlLogic>
+
+    <junction id="1" type="dead_end" x="-16.09" y="59.15" incLanes="gneE6_0" intLanes="" shape="-16.09,59.15 -16.14,62.35 -16.09,59.15"/>
+    <junction id="2" type="dead_end" x="34.54" y="95.74" incLanes="gneE1_0" intLanes="" shape="34.54,95.74 37.74,95.68 34.54,95.74"/>
+    <junction id="3" type="dead_end" x="78.23" y="58.99" incLanes="gneE2_0" intLanes="" shape="78.23,58.99 78.17,55.79 78.23,58.99"/>
+    <junction id="4" type="dead_end" x="33.12" y="22.40" incLanes="gneE3_0" intLanes="" shape="33.12,22.40 29.92,22.46 33.12,22.40"/>
+    <junction id="Cross" type="traffic_light" x="33.91" y="59.94" incLanes="gneE7_0 gneE10_0 gneE4_0 gneE0_0" intLanes=":Cross_0_0 :Cross_1_0 :Cross_2_0 :Cross_3_0 :Cross_4_0 :Cross_5_0 :Cross_6_0 :Cross_7_0 :Cross_8_0 :Cross_9_0 :Cross_10_0 :Cross_11_0" shape="30.84,67.18 37.24,67.07 37.64,64.84 38.19,64.05 38.96,63.47 39.96,63.12 41.18,62.98 41.04,56.58 38.81,56.17 38.02,55.62 37.45,54.83 37.09,53.81 36.96,52.55 30.56,52.69 30.16,54.90 29.62,55.67 28.86,56.21 27.86,56.53 26.64,56.62 26.54,63.02 28.90,63.51 29.73,64.09 30.33,64.90 30.70,65.93">
+        <request index="0"  response="000000000000" foes="000100010000" cont="0"/>
+        <request index="1"  response="000000000000" foes="111100110000" cont="0"/>
+        <request index="2"  response="000011000000" foes="110011110000" cont="0"/>
+        <request index="3"  response="000010000000" foes="100010000000" cont="0"/>
+        <request index="4"  response="000110000111" foes="100110000111" cont="0"/>
+        <request index="5"  response="011110000110" foes="011110000110" cont="0"/>
+        <request index="6"  response="000000000000" foes="010000000100" cont="0"/>
+        <request index="7"  response="000000000000" foes="110000111100" cont="0"/>
+        <request index="8"  response="000000000011" foes="110000110011" cont="0"/>
+        <request index="9"  response="000000000010" foes="000000100010" cont="0"/>
+        <request index="10" response="000111000110" foes="000111100110" cont="0"/>
+        <request index="11" response="000110011110" foes="000110011110" cont="0"/>
+    </junction>
+
+    <connection from="gneE0" to="gneE3" fromLane="0" toLane="0" via=":Cross_9_0" tl="Cross" linkIndex="9" dir="r" state="o"/>
+    <connection from="gneE0" to="gneE2" fromLane="0" toLane="0" via=":Cross_10_0" tl="Cross" linkIndex="10" dir="s" state="o"/>
+    <connection from="gneE0" to="gneE1" fromLane="0" toLane="0" via=":Cross_11_0" tl="Cross" linkIndex="11" dir="l" state="o"/>
+    <connection from="gneE10" to="gneE1" fromLane="0" toLane="0" via=":Cross_3_0" tl="Cross" linkIndex="3" dir="r" state="o"/>
+    <connection from="gneE10" to="gneE6" fromLane="0" toLane="0" via=":Cross_4_0" tl="Cross" linkIndex="4" dir="s" state="o"/>
+    <connection from="gneE10" to="gneE3" fromLane="0" toLane="0" via=":Cross_5_0" tl="Cross" linkIndex="5" dir="l" state="o"/>
+    <connection from="gneE4" to="gneE2" fromLane="0" toLane="0" via=":Cross_6_0" tl="Cross" linkIndex="6" dir="r" state="O"/>
+    <connection from="gneE4" to="gneE1" fromLane="0" toLane="0" via=":Cross_7_0" tl="Cross" linkIndex="7" dir="s" state="O"/>
+    <connection from="gneE4" to="gneE6" fromLane="0" toLane="0" via=":Cross_8_0" tl="Cross" linkIndex="8" dir="l" state="o"/>
+    <connection from="gneE7" to="gneE6" fromLane="0" toLane="0" via=":Cross_0_0" tl="Cross" linkIndex="0" dir="r" state="O"/>
+    <connection from="gneE7" to="gneE3" fromLane="0" toLane="0" via=":Cross_1_0" tl="Cross" linkIndex="1" dir="s" state="O"/>
+    <connection from="gneE7" to="gneE2" fromLane="0" toLane="0" via=":Cross_2_0" tl="Cross" linkIndex="2" dir="l" state="o"/>
+
+    <connection from=":Cross_0" to="gneE6" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Cross_1" to="gneE3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Cross_2" to="gneE2" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Cross_3" to="gneE1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Cross_4" to="gneE6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Cross_5" to="gneE3" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Cross_6" to="gneE2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Cross_7" to="gneE1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Cross_8" to="gneE6" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Cross_9" to="gneE3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Cross_10" to="gneE2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Cross_11" to="gneE1" fromLane="0" toLane="0" dir="l" state="M"/>
+
+</net>
